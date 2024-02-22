@@ -1,12 +1,13 @@
-// Left Rotate to An Array
+// Right Rotate to An Array
 import java.util.Scanner;
-class LeftRotateArray{
+class RightRotateArray{
 	public static int[] Rotate(int[] arr,int n){
 		for(int k=1;k<=n;k++){
-			int num=arr[0];
+			int last = arr.length-1;
+			int num=arr[last];
 			int i;
-			for(i=0;i<arr.length-1;i++){
-					arr[i]=arr[i+1];
+			for(i=last;i>0;i--){
+					arr[i]=arr[i-1];
 			}
 			arr[i]=num;
 		}
@@ -20,8 +21,8 @@ class LeftRotateArray{
 		System.out.println("Our Array");
 		for(int i=0;i<arr.length;i++)
 			System.out.print(arr[i]+" ");
-		int[] NewArr = LeftRotateArray.Rotate(arr,times);
-		System.out.println("\nLeft Rotated Array");
+		int[] NewArr = RightRotateArray.Rotate(arr,times);
+		System.out.println("\nRight Rotated Array");
 		for(int i=0;i<NewArr.length;i++)
 			System.out.print(NewArr[i]+" ");
 	}
