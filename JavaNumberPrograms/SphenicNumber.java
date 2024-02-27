@@ -17,10 +17,15 @@ class SphenicNumber{
 		System.out.print("Enter A Number : ");
 		int num = sc.nextInt();
 		int newNum=1;
+		int count=0;
 		for(int i=2;i<=num/2;i++)
 			if(num%i==0)
-				if(SphenicNumber.CheckPrime(i))
-					newNum=newNum*i;
+				if(SphenicNumber.CheckPrime(i)){
+				newNum=newNum*i;
+				count++;
+				if(count==3)
+					break;
+				}
 		if(num==newNum)
 			System.out.print("Sphenic Number");
 		else

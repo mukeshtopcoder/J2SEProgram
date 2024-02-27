@@ -10,22 +10,18 @@ class AutobiographicalNumber{
 			count++;
 		temp=num;
 		int[] arrNum = new int[count];
-		int[] arrCount = new int[count];
 		for(int i=count-1;i>=0;i--){
 			arrNum[i]=temp%10;
 			temp=temp/10;
 		}
+		int flag=1;
 		for(int i=0;i<count;i++){
 			int c=0;
 			for(int j=0;j<count;j++){
 				if(i==arrNum[j])
 					c++;
 			}
-			arrCount[i]=c;
-		}
-		int flag=1;
-		for(int i=0;i<count;i++){
-			if(!(arrCount[i]==arrNum[i]))
+			if(c!=arrNum[i])
 				flag=0;
 		}
 		if(flag==1)
