@@ -16,7 +16,7 @@ class UpperTriangularMatrix{
 			}
 			System.out.println();
 		}
-		System.out.println("\nlower Triangular Matrix");
+		System.out.println("\nUpper Triangular Matrix");
 		int m=1;
 		for(int i=0;i<3;i++){
 			int j=0;
@@ -24,8 +24,9 @@ class UpperTriangularMatrix{
 			System.out.printf("%2d ",0);
 			j=j+1;
 			}
-			for(;j<3;j++){
+			while(j<3){
 				System.out.print(matrix[i][j]+" ");
+				j++;
 			}
 			m=m+1;
 			System.out.println();
