@@ -6,11 +6,11 @@ class ImplementStackUsingQueue{
 		MyStack st = new MyStack();
 		st.push(12);
 		st.push(56);
-		st.push(56);
+		st.push(87);
 		st.push(62);
 		st.push(45);
 		System.out.print("My Stack : ");
-		for(int i=0;i<st.size();i++)
+		while(!st.isEmpty())
 			System.out.print(st.pop()+" ");
 	}
 }
@@ -31,7 +31,7 @@ class MyStack{
 	public int pop(){
 		return que.remove();
 	}
-	public int size(){
-		return que.size();
+	public boolean isEmpty(){
+		return que.isEmpty();
 	}
 }
