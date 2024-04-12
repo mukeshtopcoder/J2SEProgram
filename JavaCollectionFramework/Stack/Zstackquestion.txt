@@ -1,0 +1,48 @@
+public static void main(String[] args){
+		Stack<Integer> st = new Stack<>();
+		st.push(23);
+		st.push(36);
+		st.push(67);
+		st.push(27);
+		st.push(49);
+		st.push(73);
+		System.out.println("Our Stack : "+st);
+		
+	}
+ 
+11. Write a Java program to Reversing a String using a Stack
+
+
+12. Write a Java program to Checking Balanced Parentheses using a Stack
+
+
+
+13. Write a Java program to Check Stack Palindrome or Not
+
+ 
+
+14. Write a Java program to Decimal to Binary Conversion
+
+ 
+
+15. Write a Java program to add an ArrayList into Stack collection
+
+ 
+
+16. Write a Java program to Implement Stack using Queues
+
+ 
+
+17. Write a Java program to Reverse Linked List using Stack
+
+ 
+
+18. Write a Java program to Implement Min Stack
+
+ 
+
+19. Write a Java program to Binary Search Tree Iterator
+
+ 
+
+20. Write a Java program to Find Maximum Element in a Stack
