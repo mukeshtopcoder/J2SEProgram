@@ -1,0 +1,79 @@
+---------------------------- TREESET -----------------------------------------
+
+1. Write a Java program to create a TreeSet collection
+
+ 
+
+2. Write a Java program to get the size of a TreeSet collection
+
+ 
+
+3. Write a Java program to Create the clone of the TreeSet collection
+
+ 
+
+4. Write a Java program to Remove a specified item from the TreeSet collection
+
+ 
+
+5. Write a Java program to Get and Remove the largest element from the TreeSet collection
+
+ 
+
+6. Write a Java program to get the largest item from the TreeSet collection
+
+ 
+
+7. Write a Java program to get the smallest item from the TreeSet collection
+
+ 
+
+8. Write a Java program to Check whether a TreeSet is empty or not
+
+ 
+
+9. Write a Java program to get and remove the lowest element from the TreeSet collection
+
+ 
+
+10. Write a Java program to get the strictly lower element from TreeSet collection
+
+ 
+
+11. Write a Java program to get the strictly greater element from TreeSet collection based on a given item
+
+ 
+
+12. Write a Java program to iterate TreeSet collection in ascending order
+
+ 
+
+13. Write a Java program to access elements from TreeSet Collection using spliterator() method
+
+ 
+
+14. Write a Java program to get the elements greater than and equal to the specified item from TreeSet Collection
+
+ 
+
+15. Write a Java program to iterate TreeSet collection in descending order
+
+ 
+
+16. Write a Java program to create a TreeSet collection using List collection
+
+ 
+
+17. Write a Java program to check whether an item exists in a TreeSet collection or not
+
+ 
+
+18. Write a Java program to add non-common elements of one TreeSet into another TreeSet collection
+
+ 
+
+19. Write a Java program to get the flooring item of specified value from TreeSet collection
+
+ 
+
+20. Write a Java program to get the subset of a TreeSet collection based on a specified range
